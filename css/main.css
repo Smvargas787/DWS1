@@ -1,0 +1,64 @@
+/*heading*/
+
+h1 {
+			width: 550px;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-bottom: 10px;
+			margin-right: auto;
+}
+
+h1, h2, h3, h4, h5  {
+		color: #AD394F;
+		
+}
+
+/*Body*/
+
+body {
+		background-color: #04102A
+}
+
+/*Paragraphs*/
+p {
+			color: #FFFEFE;
+}
+
+/*Lists*/
+ol {
+			color: #FFFEFE;		
+			border: 2px groove;
+			border-radius: 30px;
+			box-shadow: 500px;
+			width: 500px;
+			height: 500px;
+			padding: 100px;
+			margin: 100px;
+			
+}
+
+/*Captions*/
+figcaption {
+			color: #FFFEFE;
+}
+
+/*Links*/
+a, li {
+			color: #999999;
+}
+
+/*Styling Text*/
+p {
+				font-family: 	verdana;
+				font-size: 14px;
+				font-weight: 10px;
+				font-style: italic
+				line-height: 50px;
+				text-indent: 50px;
+				text-shadow: 100px;
+			
+		
+}
+
+
+
