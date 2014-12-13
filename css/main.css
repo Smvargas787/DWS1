@@ -1,64 +1,179 @@
 /*heading*/
 
 h1 {
-			width: 550px;
-			margin-top: 10px;
-			margin-left: auto;
-			margin-bottom: 10px;
-			margin-right: auto;
+    width: 550px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5  {
-		color: #AD394F;
-		
+    color: #AD394F;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 24px;
+
 }
 
 /*Body*/
 
 body {
-		background-color: #04102A
+  background-image:url("../images/ny_logo.jpg");
+    width:96%;
 }
 
+
+
 /*Paragraphs*/
+
+@font-face {
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Rokkitt'), url(http://fonts.gstatic.com/s/rokkitt/v8/RcB7dRNAX_8JE8zinU47YALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+
+
+
 p {
-			color: #FFFEFE;
+    color: #FFFEFE;
+    font-family: Rokkitt, Georgia, seif;
+    opacity: 0.8;
+    text-shadow: -1px -2px 5px #FFD400;
+     background-image:url ("../images/ny_logo.jpg");
+}
+
+/*tables*/
+#container{
+    display:inline;
+    padding: 10px;
+    height: 4px;
+    width: 10px;
+    text-align:center;
+    margin: 105px;
+
+}
+
+#nav li{
+    display:inline;
+    width: 600px;
+    margin: 108.3px;
+    color: #999;
+}
+
+#nav ul{
+    display:inline;
+    border: 2px groove;
+    background-color: #EFFEFE;
+
 }
 
 /*Lists*/
 ol {
-			color: #FFFEFE;		
-			border: 2px groove;
-			border-radius: 30px;
-			box-shadow: 500px;
-			width: 500px;
-			height: 500px;
-			padding: 100px;
-			margin: 100px;
-			
+    border: 2px groove;
+    background-color: #FFFEFE;
+    width: 300px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: -10px 5px 15px 7px #FFFEFE;
+    list-style:square;
 }
 
 /*Captions*/
 figcaption {
-			color: #FFFEFE;
+    border: 2px groove;
+    width: 150px;
+    color: #FFFEFE;
+	background: linear-gradient(grey,navy);
 }
 
 /*Links*/
-a, li {
-			color: #999999;
+a:link {
+    color: #999999;
+    text-decoration:none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    background-color: hsla (50, 51%, 0.94);
+    color: #000;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: #EFFEFE;
+
 }
 
 /*Styling Text*/
 p {
-				font-family: 	verdana;
-				font-size: 14px;
-				font-weight: 10px;
-				font-style: italic
-				line-height: 50px;
-				text-indent: 50px;
-				text-shadow: 100px;
-			
-		
+    font-family:verdana;
+    font-size: 14px;
+    font-weight: 10px;
+    font-style: italic
+line-height: 50px;
+    text-indent: 50px;
+    text-shadow: 100px;
+
+
 }
+
+/** Stageing **/
+#resource{
+					float:left;
+}
+
+#resource ul{
+    color: #999;
+}
+
+#resource ul li{
+    background-color: #EFFEFE;
+    background: linear-gradient(#808080,#000080);
+
+}
+
+#resource ul li a{
+    color: #EFE;
+}
+
+/*columns*/
+#column1 {
+									float:left;
+									width:50%;
+									margin:25px;
+									border:5px solid #000;
+									overflow:auto;
+									background-color:black;
+									padding:5px;
+									background-image: url("../images/smalldj_ny.jpg");
+}
+#column2 {
+									float:left;
+									width:50%;
+									margin:25px;
+									border:5px solid #000;
+									background: linear-gradient(#808080,#000080);
+);
+									overflow:auto;
+}
+
+#column3 {
+								
+									height:10%;
+									width:40%;
+									margin:25px;
+									border:5px solid #000;
+									background: linear-gradient(#808080,#000080);
+									overflow:auto;
+}
+
 
 
 
