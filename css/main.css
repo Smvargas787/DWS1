@@ -174,6 +174,27 @@ line-height: 50px;
 									overflow:auto;
 }
 
+table{
+  background:linear-gradient(#808080,#000080);
+  border-spacing: 6;
+}
+th, td{
+  color: #EFFEFE;
+ padding: 5px 30px 5px 20px;
+			font-size: 1em;
+			margin: 0;
+			border-top: 1px solid #f1f8fe
+			border-bottom: 1px solid;
+			border-right: 1px solid #f`f8fe
+       text-align: 15px;
+       width: 10px;
+       letter-spacing:5px;
+}  
+
+
+
+
+
 
 
 
